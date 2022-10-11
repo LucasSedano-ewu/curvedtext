@@ -1,5 +1,15 @@
-/* My Styles */
-
+/* diagnostic styling */
 body {
-    background: lightgray;
-}
+    display: flex;
+    /* vertical alignment   */
+    align-items: center;
+    /* horizontal alignment   */
+    justify-content: center;
+    /* stretch body to height of window   */
+    height: 100vh;
+  }
+  
+  h1 {
+  /*   curve-text: 45deg; */
+    color: orangered;
+  }
