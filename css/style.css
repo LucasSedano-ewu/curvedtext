@@ -12,4 +12,6 @@ body {
 h1 {
   /*   curve-text: 45deg; */
   color: crimson;
+  font-family: 'comico';
+  font-size: 10em;
 }
