@@ -1,5 +1,7 @@
 // My Scripts
 
+import CircleType from `circletype`;
+
 console.log('Page Loaded');
 
 newCircle = function() {
@@ -8,5 +10,3 @@ newCircle = function() {
     document.body.appendChild(circle);
     return circle;
 }
-
-new CircleType(document.getElementById("demo1")).radius(384).dir(-1);
