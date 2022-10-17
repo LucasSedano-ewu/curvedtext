@@ -1,3 +1,5 @@
+@import url(comico.css);
+
 /* diagnostic styling */
 body {
   display: flex;
@@ -7,12 +9,12 @@ body {
   justify-content: center;
   /* stretch body to height of window   */
   height: 100vh;
-  color: lemonchiffon;
+  background: rgb(247, 236, 138);
 }
 
 h1 {
   /*   curve-text: 45deg; */
   color: crimson;
   font-family: 'comico';
-  font-size: 1em;
+  font-size: 10em;
 }
