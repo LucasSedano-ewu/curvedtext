@@ -1,8 +1,10 @@
 // My Scripts
 console.log('Page Loaded');
 
-new CircleType(document.getElementById('demo1'))
-  .radius(384)
-  .dir(-1);
+var demo1 = new CircleType(document.getElementById('demo1'));
+window.addEventListener('resize', function updateRadius() {
+  demo1.radius(demo1.element.offsetWidth / 2);
+});
+updateRadius();
 
 var lettering = new Lettering('.letters');
