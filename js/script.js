@@ -6,5 +6,3 @@ window.addEventListener('resize', function updateRadius() {
   demo1.radius(demo1.element.offsetWidth / 2);
 });
 updateRadius();
-
-var lettering = new Lettering('.letters');
