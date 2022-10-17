@@ -7,6 +7,7 @@ body {
   justify-content: center;
   /* stretch body to height of window   */
   height: 100vh;
+  color: lemonchiffon;
 }
 
 h1 {
