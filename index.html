@@ -13,10 +13,30 @@
     <!-- Scripts -->
     <script src="js/curvedtext.js"></script>
     <script defer src="js/script.js"></script>
+    <script src="js/lettering.js"></script>
+    <script>
+		new Lettering('#demo1 h1').letters();
+		new Lettering('#demo2 h1').words();
+		new Lettering('#demo3 h1').lines();
+	</script>
 
 </head>
 <body>
-    
+
+    <div id="container">
+		<div id="demo1" class="demo">
+			<h1>Hello there, friend!</h1>
+		</div>
+
+		<div id="demo2" class="demo">
+			<h1>Hello there, friend!</h1>
+		</div>
+
+		<div id="demo3" class="demo">
+			<h1>Hello there,<br>friend!<br>How are you today?</h1>
+		</div>
+  </div>
+  
     <h1 id="demo1">Decisions define the Direction of the Design. Design without Direction -- is just Decoration. Anyone who makes Decisions is a: Designer.</h1>
 
 </body>
